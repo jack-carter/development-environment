@@ -24,11 +24,17 @@ There are a number of installation approaches that will be used during this proc
 
 * `npm` (project)
   * `typescript`
-  * `@types/typescript`
   * `ts-node`
   * `jest`
   * `ts-jest`
+  * `@types/typescript`
   * `@types/jest`
+  * `@babel/core`
+  * `@babel/node`
+  * `@babel/preset-env`
+  * `babel-loader`
+  * `webpack`
+  * `webpack-cli`
   *  AWS CDK (`cdk`)
 
 ### Scripts
