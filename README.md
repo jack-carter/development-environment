@@ -23,18 +23,10 @@ There are a number of installation approaches that will be used during this proc
   * `yarn`
 
 * `npm` (project)
-  * `typescript`
-  * `ts-node`
-  * `jest`
-  * `ts-jest`
-  * `@types/typescript`
-  * `@types/jest`
-  * `@babel/core`
-  * `@babel/node`
-  * `@babel/preset-env`
-  * `babel-loader`
-  * `webpack`
-  * `webpack-cli`
+  * `typescript @types/typescript ts-node`
+  * `jest @types/jest ts-jest`
+  * `@babel/core @babel/node @babel/preset-env babel-loader`
+  * `webpack webpack-cli`
   *  AWS CDK (`cdk`)
 
 ### Scripts
