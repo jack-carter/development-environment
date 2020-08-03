@@ -8,6 +8,7 @@ There are a number of installation approaches that will be used during this proc
   * Homebrew
   * `git`
   * `nvm` (`npm`, `node`)
+  * `bash` environment
 
 * Homebrew (`brew`)
   * AWS CLI (`aws`)
@@ -29,10 +30,10 @@ There are a number of installation approaches that will be used during this proc
   * `webpack webpack-cli`
   *  AWS CDK (`cdk`)
 
-### Installs via Scripts
+### Scripts
 This section will walk you through the scripts available online for the software installations that call that out as the proscribed means to install that product.
 
-#### Homebrew (brew)
+#### How to install Homebrew (`brew`)
 From the official site for [HomeBrew](https://brew.sh):
 ```
 $ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh | bash
@@ -40,20 +41,18 @@ $ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.s
 This will require a root-level login, as it's installing for use across all accounts on the machine. This will also download XCode, which is a rather sizable download, so patience is key. You can verify it was properly installed by using:
 ```
 $ brew --version
-```
-which should display something along the lines of:
-```
 Homebrew 2.4.9
 ```
 
-#### git
+#### How to install `git`
 This should've been installed as part of the HomeBrew install from above. You can check that this is the case by using:
 ```
 $ git --version
 git version 2.24.3 (Apple Git-128)
 ```
+You can check out the details at the official [Atlassian site](https://www.atlassian.com/git/tutorials/install-git).
 
-#### nvm (node,npm)
+#### How to install `nvm` (`node`,`npm`)
 From the official site for [`nvm`](https://github.com/nvm-sh/nvm):
 ```
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -62,6 +61,13 @@ You can confirm this was properly installed by using:
 ```
 $ nvm --version
 0.35.3
+```
+
+#### How to install `bash` environment
+From the GitHub repo site for this [`bash` environment](https://github.com/jack-carter/bash):
+```
+$ git clone https://github.com/jack-carter/bash.git ~
+$ mv ~/bash ~/.bash
 ```
 
 ### Homebrew
