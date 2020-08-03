@@ -1,5 +1,7 @@
 #!/bin/bash
 
+{ # download entire script
+
 set -u
 
 # HomeBrew, if not installed, then install
@@ -31,3 +33,4 @@ if [[ ! -f ~/bash ]]; then
   echo "[[ -f ~/.bash/profile ]] && source ~/.bash/profile" >> ~/.bash_profile
 fi
 
+} # entire script downloaded
