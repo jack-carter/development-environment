@@ -84,7 +84,14 @@ $ cd ~/.bash && brew bundle install
 
 #### AWS CLI
 #### AWS SAM CLI
+From the official site for [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html):
+```
+brew tap aws/tap
+brew brew install aws-sam-cli
+```
+
 #### Docker Toolbox (if desired)
+See this [site](https://medium.com/@yutafujii_59175/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3) for details should you desire to install the Docker Toolbox.
 
 ### npm (global)
 There are several tools for use with `npm`, so I've included the details to walk you through the most frequently used ones.
