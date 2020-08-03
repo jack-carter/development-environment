@@ -7,8 +7,8 @@ There are a number of installation approaches that will be used during this proc
 * Scripts
   * Homebrew
   * `git`
-  * `nvm` (`npm`, `node`)
   * `bash` environment
+  * `nvm` (`npm`, `node`)
 
 * Homebrew (`brew`)
   * AWS CLI (`aws`)
@@ -57,6 +57,15 @@ $ git config --global user.email "the.jack.carter@gmail.com"
 ```
 substituting your own name and email above. You can check out the details at the official [Atlassian site](https://www.atlassian.com/git/tutorials/install-git).
 
+#### How to install `bash` environment
+From the GitHub repo site for this [`bash` environment](https://github.com/jack-carter/bash):
+```
+$ git clone https://github.com/jack-carter/bash.git ~
+$ mv ~/bash ~/.bash
+$ source ~/.bash/profile
+$ sudo cp ~/.bash/com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
+```
+
 #### How to install `nvm` (`node`,`npm`)
 From the official site for [`nvm`](https://github.com/nvm-sh/nvm):
 ```
@@ -66,14 +75,6 @@ You can confirm this was properly installed by using:
 ```
 $ nvm --version
 0.35.3
-```
-
-#### How to install `bash` environment
-From the GitHub repo site for this [`bash` environment](https://github.com/jack-carter/bash):
-```
-$ git clone https://github.com/jack-carter/bash.git ~
-$ mv ~/bash ~/.bash
-$ source ~/.bash/profile
 ```
 
 ### Homebrew
