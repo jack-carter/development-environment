@@ -28,6 +28,6 @@ fi
 # bash environment, if not installed then install
 if [[ ! -f ~/bash ]]; then
   git clone https://github.com/jack-carter/bash.git ~ && mv ~/bash ~/.bash
-  echo ""[[ -f ~/.bash/profile ]] && source ~/.bash/profile" >> ~/.bash_profile
+  echo "[[ -f ~/.bash/profile ]] && source ~/.bash/profile" >> ~/.bash_profile
 fi
 
