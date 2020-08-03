@@ -90,7 +90,14 @@ $ cd ~/.bash && brew bundle install
 There are several tools for use with `npm`, so I've included the details to walk you through the most frequently used ones.
 
 #### npx
+```
+npm install -g npx
+```
+
 #### yarn
+```
+npm install -g yarn
+```
 
 ### Installers
 This section will walk you through the details for each software installation that requires a custom installer.
