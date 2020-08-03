@@ -73,6 +73,7 @@ From the GitHub repo site for this [`bash` environment](https://github.com/jack-
 ```
 $ git clone https://github.com/jack-carter/bash.git ~
 $ mv ~/bash ~/.bash
+$ source ~/.bash/profile
 ```
 
 ### Homebrew
