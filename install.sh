@@ -4,7 +4,7 @@ set -u
 
 # HomeBrew, if not installed, then install
 if [[ -z `which brew` ]]; then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" | bash
+  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh | bash
   brew --version
   if [[ $? -ge 0 ]]; then
     echo "ERROR: something didn't install properly for HomeBrew"
