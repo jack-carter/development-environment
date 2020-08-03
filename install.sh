@@ -10,6 +10,10 @@ if [[ -z `which brew` ]]; then
     echo "ERROR: something didn't install properly for HomeBrew"
     exit 1
   fi
+  git --version
+  if [[ $? -ge 0 ]]; then
+    exit 2
+  fi
 fi
 
 # nvm, if not installed then install
@@ -18,6 +22,12 @@ if [[ -z `command -v nvm` ]] && [[ -z `which nvm` ]]; then
   nvm --version
   if [[ $? -ge 0 ]]; then
     echo "ERROR: something didn't install properly for nvm"
-    exit 2
+    exit 3
+fi
+
+# bash environment, if not installed then install
+if [[ ! -f ~/bash ]]; then
+  git clone https://github.com/jack-carter/bash.git ~ && mv ~/bash ~/.bash
+  echo ""[[ -f ~/.bash/profile ]] && source ~/.bash/profile" >> ~/.bash_profile
 fi
 
