@@ -112,11 +112,13 @@ The official [Docker Install](https://docs.docker.com/docker-for-mac/install/) s
 
 ### npm (project)
 This last section is optional, but it lists the tools I most commonly use across most projects.
-
-#### typescript
-#### @types/typescript
-#### ts-node
-#### jest
-#### ts-jest
-#### @types/jest
+```
+npm install --save-dev typescript @types/typescript ts-node
+npm install --save-dev jest @types/jest ts-jest
+```
 #### AWS CDK
+For project where you'll be using the AWS SDK & CDK:
+```
+npm install --save-dev aws-cdk
+npm install --save aws-sdk
+```
