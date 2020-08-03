@@ -11,7 +11,7 @@ There are a number of installation approaches that will be used during this proc
 | `bash` environment   | Docker Toolbox      |                         |                    | `babel`
 | `nvm`                |                     |                         |                    | `webpack`
 | `node`               |                     |                         |                    | AWS CDK (`cdk`) 
-| `npm`                |                     |                         |                    |
+| `npm`                |                     |                         |                    | AWS SDK (`aws-sdk`)
 
 # via Scripts
 This section will walk you through the scripts available online for the software installations that call that out as the proscribed means to install that product.
@@ -106,7 +106,7 @@ npm install --save-dev @babel/core @babel/preset-env @babel/babel-loader
 npm install --save-dev webpack webpack-cli
 ```
 
-#### installing AWS CDK (`cdk`)
+#### installing AWS CDK (`cdk`) & AWS SDK (`aws-sdk`)
 For project where you'll be using the AWS SDK & CDK:
 ```
 npm install --save-dev aws-cdk
