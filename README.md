@@ -83,6 +83,11 @@ $ cd ~/.bash && brew bundle install
 ```
 
 #### AWS CLI
+```
+brew tap aws/tap
+brew install awscli@2
+```
+
 #### AWS SAM CLI
 From the official site for [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html):
 ```
