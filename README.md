@@ -33,8 +33,17 @@ There are a number of installation approaches that will be used during this proc
 This section will walk you through the scripts available online for the software installations that call that out as the proscribed means to install that product.
 
 #### Homebrew (brew)
+From the official site for [HomeBrew](https://brew.sh):
+```
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh | bash
+```
+This will require a root-level login, as it's installing for use across all accounts on the machine. This will also download XCode, which is a rather sizable download, so patience is key.
 
 #### nvm (node,npm)
+From the official site for [`nvm`](https://github.com/nvm-sh/nvm):
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
 
 ### Homebrew
 This section will walk you through the details for each software installation available through a Homebrew formula. But, as a shortcut, you're welcome to use the Brewfile that's part of this repo.
