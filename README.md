@@ -55,9 +55,7 @@ and then finalize `git` installation by using:
 $ git config --global user.name "Jack Carter"
 $ git config --global user.email "the.jack.carter@gmail.com"
 ```
-substituting your own name and email above.
-
-You can check out the details at the official [Atlassian site](https://www.atlassian.com/git/tutorials/install-git).
+substituting your own name and email above. You can check out the details at the official [Atlassian site](https://www.atlassian.com/git/tutorials/install-git).
 
 #### How to install `nvm` (`node`,`npm`)
 From the official site for [`nvm`](https://github.com/nvm-sh/nvm):
