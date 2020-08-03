@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-{ # download entire script
+{ # download entire script #
 
 set -u
 
@@ -33,4 +33,4 @@ if [[ ! -f ~/bash ]]; then
   echo "[[ -f ~/.bash/profile ]] && source ~/.bash/profile" >> ~/.bash_profile
 fi
 
-} # entire script downloaded
+} # entire script downloaded #
