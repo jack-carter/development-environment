@@ -84,7 +84,7 @@ This section will walk you through the details for each software installation th
 The official [Docker Install](https://docs.docker.com/docker-for-mac/install/) site. But you can [click here](https://download.docker.com/mac/stable/Docker.dmg) to start the install.
 
 #### installing AWS Toolkit for VS Code
-From the official AWS site [Setting Up the AWS Toolkit for Visual Studio](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/setup.html), you can simply [click here](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017) to begin the install.
+From the official AWS site [Setting Up the AWS Toolkit for Visual Studio](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/setup.html), you can simply [click here](https://marketplace.visualstudio.com/_apis/public/gallery/publishers/AmazonWebServices/vsextensions/AWSToolkitforVisualStudio2017/1.18.1.0/vspackage) to begin the install.
 
 # via global `npm`
 There are several tools for use with `npm`, so I've included the details to walk you through the most frequently used ones.
