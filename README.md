@@ -106,6 +106,8 @@ $ npm install -g yarn
 This section will walk you through the details for each software installation that requires a custom installer.
 
 #### Docker Desktop
+The official [Docker Install](https://docs.docker.com/docker-for-mac/install/) site. But you can [click here](https://download.docker.com/mac/stable/Docker.dmg) to start the install.
+
 #### AWS Toolkit for Visual Studio Code
 
 ### npm (project)
