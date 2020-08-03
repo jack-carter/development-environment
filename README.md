@@ -13,7 +13,7 @@ There are a number of installation approaches that will be used during this proc
 | `node`               |                     |                         |                    | AWS CDK (`cdk`) 
 | `npm`                |                     |                         |                    |
 
-### via Scripts
+# via Scripts
 This section will walk you through the scripts available online for the software installations that call that out as the proscribed means to install that product.
 
 #### installing Homebrew (`brew`)
@@ -60,7 +60,7 @@ $ nvm --version
 0.35.3
 ```
 
-### via Homebrew
+# via Homebrew
 This section will walk you through the details for each software installation available through a Homebrew formula. But, as a shortcut, you're welcome to use the Brewfile that's part of this repo. To quickly install the standard development environment you can use the following, and skip the remainder of this section:
 ```
 $ cd ~/.bash && brew bundle install
@@ -77,16 +77,7 @@ From the official site for [AWS SAM CLI](https://docs.aws.amazon.com/serverless-
 #### installing Docker Toolbox (if desired)
 See this [site](https://medium.com/@yutafujii_59175/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3) for details should you desire to install the Docker Toolbox.
 
-### via global `npm`
-There are several tools for use with `npm`, so I've included the details to walk you through the most frequently used ones.
-
-#### installing `npx` & `yarn`
-```
-$ npm install -g npx
-$ npm install -g yarn
-```
-
-### via Installers
+# via Installers
 This section will walk you through the details for each software installation that requires a custom installer.
 
 #### installing Docker Desktop
@@ -95,7 +86,16 @@ The official [Docker Install](https://docs.docker.com/docker-for-mac/install/) s
 #### installing AWS Toolkit for VS Code
 From the official AWS site [Setting Up the AWS Toolkit for Visual Studio](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/setup.html), you can simply [click here](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2017) to begin the install.
 
-### via project `npm`
+# via global `npm`
+There are several tools for use with `npm`, so I've included the details to walk you through the most frequently used ones.
+
+#### installing `npx` & `yarn`
+```
+$ npm install -g npx
+$ npm install -g yarn
+```
+
+# via project `npm`
 This last section is optional, but it lists the tools I most commonly use across most projects.
 
 #### intalling `typescript`, `jest`, `babel`, `webpack`
