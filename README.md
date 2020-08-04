@@ -89,10 +89,11 @@ From the official AWS site [Setting Up the AWS Toolkit for Visual Studio](https:
 # via global `npm`
 There are several tools for use with `npm`, so I've included the details to walk you through the most frequently used ones.
 
-#### installing `npx` & `yarn`
+#### installing global `npm` packages
 ```
 $ npm install -g npx
 $ npm install -g yarn
+$ npm install -g aws-cdk
 ```
 
 # via project `npm`
@@ -106,9 +107,8 @@ npm install --save-dev @babel/core @babel/preset-env @babel/babel-loader
 npm install --save-dev webpack webpack-cli
 ```
 
-#### installing AWS CDK (`cdk`) & AWS SDK (`aws-sdk`)
+#### installing AWS SDK (`aws-sdk`)
 For project where you'll be using the AWS SDK & CDK:
 ```
-npm install --save-dev aws-cdk
 npm install --save aws-sdk
 ```
